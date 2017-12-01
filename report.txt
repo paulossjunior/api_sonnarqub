@@ -1,0 +1,7 @@
+{
+    "errors": [
+        {
+            "msg": "File 'libebox_123' has no sources"
+        }
+    ]
+}
