@@ -32,7 +32,6 @@ print json.dumps(response_data, indent=4, sort_keys=True)
 '''
 
 USER_TOKEN = '6d6c5a6cdc8d04f976ba42671e18859683df840c'
-
 sonnar_api = Sonnar_API(USER_TOKEN)
 response_data = sonnar_api.get_projects()
 print json.dumps(response_data, indent=4, sort_keys=True)
